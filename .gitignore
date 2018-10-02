@@ -1,0 +1,3 @@
+node_modules
+helper/db_connection.js
+.DS_Store

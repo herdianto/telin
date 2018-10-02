@@ -1,0 +1,46 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Accenture - AOP Business Excellence Team",
+  "license": "Trade Secret",
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "a-sync-waterfall": "^1.0.0",
+    "async": "^2.5.0",
+    "asyncawait": "^1.0.6",
+    "bluebird": "^3.5.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "date-and-time": "^0.5.0",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jwt-simple": "^0.2.0",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.4",
+    "morgan": "~1.8.1",
+    "multer": "^1.2.0",
+    "mysql": "^2.14.1",
+    "randomstring": "^1.1.5",
+    "sendmail": "^1.2.0",
+    "check-ip-address": "^1.1.1",
+    "request": "^2.51.0",
+    "ssl-root-cas": "^1.1.10"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-ruby-sass": "^2.1.1",
+    "jshint": "^2.9.5"
+  },
+  "engines": {
+    "node": "6.11.1",
+    "npm": "3.10.9"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

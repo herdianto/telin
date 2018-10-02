@@ -1,0 +1,11 @@
+{
+    "server":{
+        "port": 8080
+    },
+    "database": {
+        "host": "10.14.251.50",
+        "user": "root",
+        "password": "P4S5w0rD&^",
+        "database": "votingapp_new"
+    }
+}
